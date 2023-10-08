@@ -1,0 +1,24 @@
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" name="rating">
+            <option value="5">Excellent</option>
+            <option value="4">Good</option>
+            <option value="3">Average</option>
+            <option value="2">Fair</option>
+            <option value="1">Poor</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
